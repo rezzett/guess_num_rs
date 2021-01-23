@@ -60,7 +60,7 @@ impl GameCore {
             .collect::<Vec<_>>()
     }
 
-    // debgu only
+    // debug only
     pub fn get_secret(&self) -> &[u32] {
         &self.secret_num
     }
